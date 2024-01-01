@@ -1,5 +1,4 @@
-# Linear-Algebra-
-# algorithms in lin al
+# Linear Algebra Algorithms
 
 # MATLAB is short for Matrix Labrotory. MATLAB interprets 
     A = [1, 2, 3, 4] == [1 2 3 4]
