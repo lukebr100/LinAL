@@ -44,3 +44,21 @@ def gaussian_elim(A):
                 rowswap(A, j - k, j + 1) # swap rows j - k and j + 1
                 gaussian_elim(A) # call this function 
     return A
+
+# driver code
+A = [[0, 0, 0], [0, 0, 0]]
+print(A, 'A')
+print(gaussian_elim(A), 'GE of A')
+
+B = [[1]]
+print((B), 'B')
+print(gaussian_elim(B), 'GE of B')
+
+C = [[1, 2, 3, 4]]
+print(C, 'C')
+print(gaussian_elim(C), 'GE of C')
+
+D = [[1], [2], [3], [4]]
+print(D, 'D')
+print(gaussian_elim(D), 'GE of D')
+
