@@ -8,6 +8,7 @@ def rowscale(A, i, c):
 A = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 rowscale(A, 0, 5)
 print(A)
+
 def rowadd(A, i, j, c):
     # inputs: matrix A, row i, row j, non-zero c
     # output: matrix A after performing (c) * Ri + Rj -> Rj
